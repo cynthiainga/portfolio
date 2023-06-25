@@ -1,0 +1,147 @@
+.footer-main-container {
+    border-top: 1px solid rgba(128, 141, 173, 0.2);
+  }
+  
+  .footer-main-container .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer-main-container .footer-content .footer-up {
+    width: 80%;
+    border-bottom: 1px solid rgba(128, 141, 173, 0.2);
+    padding: 1rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  
+  .footer-main-container .footer-content .footer-up ul {
+    padding: 0;
+  }
+  
+  .footer-main-container .footer-content .footer-up .links-pages li {
+    margin: 0.8rem 0;
+  }
+  
+  .footer-main-container .footer-content .footer-up .links-pages li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer-main-container .footer-content .footer-up .links-pages li a {
+    color: #808dad;
+    font-weight: bold;
+  }
+  
+  .footer-main-container .footer-content .footer-up .links-pages li a.active {
+    color: #dba858;
+  }
+  
+  .footer-main-container .footer-content .footer-up .links-pages li a:hover {
+    color: #dba858;
+  }
+  
+  .footer-main-container .footer-content .footer-up .contact-links ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  
+  .footer-main-container .footer-content .footer-up .contact-links ul li {
+    margin-right: 0.6rem;
+  }
+  
+  .footer-main-container .footer-content .footer-up .contact-links ul li .contact-link-icon {
+    width: auto;
+    color: #808dad;
+    font-size: 1.2rem;
+  }
+  
+  .footer-main-container .footer-content .footer-up .contact-links ul li .contact-link-icon:hover {
+    color: #dba858;
+  }
+  
+  .footer-main-container .footer-content .footer-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    width: 80%;
+    padding: 0.3rem 0;
+  }
+  
+  .footer-main-container .footer-content .footer-down p {
+    color: #808dad;
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .footer-main-container .footer-content .footer-down p .name {
+    color: #808dad;
+  }
+  
+  .footer-main-container .footer-content .footer-down p .name:hover {
+    color: #dba858;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer-main-container .links-pages li a {
+      font-size: 1.5rem;
+    }
+    .footer-main-container .contact-links li {
+      margin-right: 1.5rem !important;
+    }
+    .footer-main-container .contact-links li .contact-link-icon {
+      font-size: 1.9rem !important;
+    }
+    .footer-main-container .footer-down {
+      padding: 1rem 0 !important;
+    }
+  }
