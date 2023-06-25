@@ -9,6 +9,7 @@
 @import "./home.css";
 @import "./portfolio.css";
 @import "./works.css";
+
 @font-face {
   font-family: "pacifico";
   src: url("../fonts/Opificio_neue-regular.ttf") format("ttf");
@@ -55,7 +56,7 @@ ul {
 
 img {
   -o-object-fit: cover !important;
-     object-fit: cover !important;
+  object-fit: cover !important;
 }
 
 h1,
