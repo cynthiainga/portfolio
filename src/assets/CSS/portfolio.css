@@ -1,16 +1,7 @@
 .portfolio-main-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -29,21 +20,8 @@
 }
 
 .portfolio-main-container .portfolio .portfolio-works .projects-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
 }
 
@@ -52,21 +30,9 @@
 }
 
 .portfolio-main-container .portfolio .portfolio-works .projects-links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
   padding: 0;
   overflow-x: auto;
@@ -105,7 +71,6 @@
   margin-top: 1rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
 }
@@ -117,7 +82,6 @@
   }
 
   .portfolio-main-container .portfolio .portfolio-works .projects-grid-wrapper {
-    -ms-grid-columns: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
   }
@@ -130,21 +94,9 @@
   }
 
   .portfolio-main-container .portfolio .portfolio-works .projects-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
     align-items: flex-start;
     margin: 2rem 0;
   }
@@ -164,7 +116,6 @@
   }
 
   .portfolio-main-container .portfolio .portfolio-works .projects-grid-wrapper {
-    -ms-grid-columns: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
   }

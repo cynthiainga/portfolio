@@ -33,12 +33,7 @@
 }
 
 .about-main-container .right-container .button.about {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
   margin: 2rem 0;
 }
@@ -48,28 +43,14 @@
 }
 
 .about-main-container .right-container .about-work-details {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
   grid-template-columns: repeat(1, 1fr);
 }
 
 .about-main-container .right-container .about-work-details .about-work-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
   margin-bottom: 1rem;
   color: #f5f3f3;
@@ -90,18 +71,9 @@
 .about-main-container .right-about-page-area {
   margin-left: 2rem;
   margin-right: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
 }
 
@@ -110,18 +82,9 @@
   background-color: #1a2857;
   border-radius: 0.4rem;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
 }
 
@@ -149,36 +112,22 @@
 
 @media screen and (min-width: 768px) {
   .about-main-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
   }
 
   .about-main-container .right-container {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
     flex: 1;
     margin-left: 4rem;
   }
 
   .about-main-container .right-container .about-work-details {
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: repeat(2, 1fr);
   }
 
   .about-main-container .right-about-page-area {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
     flex: 1;
     margin-right: 4rem;
   }
