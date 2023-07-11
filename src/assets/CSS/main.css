@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import "./about.css";
+@import "./common.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./home.css";
+@import "./portfolio.css";
+@import "./works.css";
+
+@font-face {
+  font-family: "pacifico";
+  src: url("../fonts/Opificio_neue-regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Cera Pro Black Italic";
+  src: url(../fonts/cera-pro-sv/Cera-Pro-Black-Italic.otf);
+}
+
+@font-face {
+  font-family: "Cera Pro Bold";
+  src: url(../fonts/cera-pro-sv/Cera-Pro-Bold.otf);
+}
+
+@font-face {
+  font-family: "Cera Pro Light";
+  src: url(../fonts/cera-pro-sv/Cera-Pro-Light.otf);
+}
+
+body {
+  background-color: #031b28;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+li div {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+}
+
+img {
+  object-fit: cover !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111;
+}
+
+span,
+p {
+  color: #111;
+}
+
+textarea {
+  font-family: "Quicksand", sans-serif;
+}
+
+input {
+  border: none;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.App {
+  width: 100%;
+}
+
+tspan {
+  white-space: pre;
+}
+
+.submit-bnt:hover {
+  background-color: #1a2857;
+}
