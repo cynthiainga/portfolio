@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export default function Input({ placeholder = "Email", error, name }) {
+export default function Input({ placeholder = 'Email', error, name }) {
   return (
     <>
       <div className="input-main-container">

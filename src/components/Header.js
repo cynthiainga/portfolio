@@ -1,8 +1,8 @@
-import React, { Component, createRef } from "react";
-import { IconContext } from "react-icons";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
-import { Link } from "react-scroll";
+import React, { Component, createRef } from 'react';
+import { IconContext } from 'react-icons';
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
+import { Link } from 'react-scroll';
 import logo from '../assets/images/logo1.png';
 
 // Or Access Link,Element,etc as follows
@@ -12,43 +12,58 @@ class Header extends Component {
     this.navbar = createRef();
     this.menu = createRef();
   }
+
   state = {
     links: [
-      { id: 1, name: "Home", to: "home", class: "" },
-      { id: 2, name: "About", to: "about", class: "" },
-      { id: 3, name: "Work", to: "work", class: "" },
-      { id: 4, name: "Portfolio", to: "portfolio", class: "" },
-      { id: 5, name: "Contact", to: "contact", class: "" },
+      {
+        id: 1, name: 'Home', to: 'home', class: '',
+      },
+      {
+        id: 2, name: 'About', to: 'about', class: '',
+      },
+      {
+        id: 3, name: 'Work', to: 'work', class: '',
+      },
+      {
+        id: 4, name: 'Portfolio', to: 'portfolio', class: '',
+      },
+      {
+        id: 5, name: 'Contact', to: 'contact', class: '',
+      },
     ],
   };
 
   handleShowLinks = () => {
-    this.navbar.current.classList.toggle("open");
-    this.menu.current.classList.toggle("open");
+    this.navbar.current.classList.toggle('open');
+    this.menu.current.classList.toggle('open');
   };
+
   handleHover = (link) => {
     const links = this.state.links.map((item) => {
       if (item.id === link.id) {
-        item.class = "focusOut focused";
+        item.class = 'focusOut focused';
       } else {
-        item.class = "focusOut";
+        item.class = 'focusOut';
       }
       return item;
     });
     this.setState({ links });
   };
+
   handleHoverOut = () => {
     const links = this.state.links.map((item) => {
-      item.class = "";
+      item.class = '';
 
       return item;
     });
     this.setState({ links });
   };
+
   handleCursorEnter = () => {};
+
   closeMenu = () => {
-    this.navbar.current.classList.remove("open");
-    this.menu.current.classList.remove("open");
+    this.navbar.current.classList.remove('open');
+    this.menu.current.classList.remove('open');
   };
 
   render() {
@@ -58,8 +73,8 @@ class Header extends Component {
           <div className="logo-container">
             <Link
               to="home"
-              spy={true}
-              smooth={true}
+              spy
+              smooth
               duration={500}
               delay={800}
               className="logo-area"
@@ -71,8 +86,8 @@ class Header extends Component {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               > */}
-                <img src={logo} alt="homeImage" className="logo" />
-                {/* <g clipPath="url(#clip0)">
+              <img src={logo} alt="homeImage" className="logo" />
+              {/* <g clipPath="url(#clip0)">
                   <path
                     d="M155.192 66.4327C157.844 71.0897 157.809 76.8076 155.102 81.4324L123.437 135.525C120.73 140.15 115.761 142.98 110.402 142.947L47.7236 142.571C42.3647 142.539 37.4301 139.651 34.7785 134.994L3.76496 80.5244C1.11337 75.8674 1.14768 70.1495 3.85496 65.5247L35.5198 11.4317C38.2271 6.8068 43.1961 3.97758 48.555 4.00973L111.233 4.3858C116.592 4.41796 121.527 7.3066 124.178 11.9636L155.192 66.4327Z"
                     fill="white"
@@ -103,7 +118,7 @@ class Header extends Component {
                     fill="black"
                   />
                 </g> */}
-                {/* <defs>
+              {/* <defs>
                   <clipPath id="clip0">
                     <rect width="157" height="149" fill="black" />
                   </clipPath>
@@ -113,14 +128,14 @@ class Header extends Component {
           </div>
           <div className="hamburger-container">
             <div className="hamburger-area" onClick={this.handleShowLinks}>
-              <div className="burger"></div>
-              <div className="burger"></div>
-              <div className="burger"></div>
+              <div className="burger" />
+              <div className="burger" />
+              <div className="burger" />
             </div>
           </div>
         </nav>
         <nav className="header-links-main-container" ref={this.navbar}>
-          <div className="navbar-overlay-main-container"></div>
+          <div className="navbar-overlay-main-container" />
           <div className="links-wrapper">
             <div className="menu-text">
               <h1>Menu</h1>
@@ -135,8 +150,8 @@ class Header extends Component {
                 >
                   <Link
                     to={link.to}
-                    spy={true}
-                    smooth={true}
+                    spy
+                    smooth
                     duration={500}
                     delay={800}
                     key={link.id}
@@ -144,7 +159,10 @@ class Header extends Component {
                   >
                     {link.name}
                   </Link>
-                  <div className="link-number">0{index + 1}</div>
+                  <div className="link-number">
+                    0
+                    {index + 1}
+                  </div>
                   <div className="link-text-overlay">{link.name}</div>
                 </li>
               ))}
@@ -152,46 +170,56 @@ class Header extends Component {
           </div>
           <div className="contact-details">
             <div className="contact-text">
-              <p>candyinga67@gmail.com</p> <br />
-              <p>+(254) 745-889-613</p> <br />
+              <p>candyinga67@gmail.com</p>
+              {' '}
+              <br />
+              <p>+(254) 745-889-613</p>
+              {' '}
+              <br />
               <span>Kenya - Malindi</span>
             </div>
             <div className="contact-details-icon-wrapper">
               <div className="contact-icon-item">
                 <a
-                  href="https://www.facebook.com/cynthia.inga.77/" target="blank">
+                  href="https://www.facebook.com/cynthia.inga.77/"
+                  target="blank"
+                >
                   <IconContext.Provider
-                    value={{ className: "header-links-icon" }}
+                    value={{ className: 'header-links-icon' }}
                   >
                     <FaFacebookF />
                   </IconContext.Provider>
                 </a>
                 <a href="https://twitter.com/CynthiaInga_C" target="blank">
                   <IconContext.Provider
-                    value={{ className: "header-links-icon" }}
+                    value={{ className: 'header-links-icon' }}
                   >
                     <FaTwitter />
                   </IconContext.Provider>
                 </a>
                 <a
-                  href="https://www.instagram.com/candyinga67/" target="blank">
+                  href="https://www.instagram.com/candyinga67/"
+                  target="blank"
+                >
                   <IconContext.Provider
-                    value={{ className: "header-links-icon" }}
+                    value={{ className: 'header-links-icon' }}
                   >
                     <FaInstagram />
                   </IconContext.Provider>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/cynthia-inga/" target="blank">
+                  href="https://www.linkedin.com/in/cynthia-inga/"
+                  target="blank"
+                >
                   <IconContext.Provider
-                    value={{ className: "header-links-icon" }}
+                    value={{ className: 'header-links-icon' }}
                   >
                     <AiFillLinkedin />
                   </IconContext.Provider>
                 </a>
                 <a href="https://github.com/cynthiainga" target="blank">
                   <IconContext.Provider
-                    value={{ className: "header-links-icon" }}
+                    value={{ className: 'header-links-icon' }}
                   >
                     <AiOutlineGithub />
                   </IconContext.Provider>

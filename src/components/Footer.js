@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import { IconContext } from "react-icons/lib";
+import { IconContext } from 'react-icons/lib';
 import {
   FiFacebook,
   FiInstagram,
   FiTwitter,
   FiGithub,
   FiLinkedin,
-} from "react-icons/fi";
-import { Link } from "react-scroll";
+} from 'react-icons/fi';
+import { Link } from 'react-scroll';
 
 export default class Footer extends Component {
   render() {
@@ -18,27 +18,27 @@ export default class Footer extends Component {
           <div className="footer-up">
             <ul className="links-pages">
               <li data-aos="fade-right">
-                <Link to="home" spy={true} smooth={true} duration={500}>
+                <Link to="home" spy smooth duration={500}>
                   Home
                 </Link>
               </li>
               <li data-aos="fade-right">
-                <Link to="about" spy={true} smooth={true} duration={500}>
+                <Link to="about" spy smooth duration={500}>
                   About
                 </Link>
               </li>
               <li data-aos="fade-right">
-                <Link to="work" spy={true} smooth={true} duration={500}>
+                <Link to="work" spy smooth duration={500}>
                   Work
                 </Link>
               </li>
               <li data-aos="fade-right">
-                <Link to="portfolio" spy={true} smooth={true} duration={500}>
+                <Link to="portfolio" spy smooth duration={500}>
                   Portfolio
                 </Link>
               </li>
               <li data-aos="fade-right">
-                <Link to="contact" spy={true} smooth={true} duration={500}>
+                <Link to="contact" spy smooth duration={500}>
                   Contact me
                 </Link>
               </li>
@@ -52,7 +52,7 @@ export default class Footer extends Component {
                     target="blank"
                   >
                     <IconContext.Provider
-                      value={{ className: "contact-link-icon" }}
+                      value={{ className: 'contact-link-icon' }}
                     >
                       <FiFacebook />
                     </IconContext.Provider>
@@ -64,7 +64,7 @@ export default class Footer extends Component {
                     target="blank"
                   >
                     <IconContext.Provider
-                      value={{ className: "contact-link-icon" }}
+                      value={{ className: 'contact-link-icon' }}
                     >
                       <FiInstagram />
                     </IconContext.Provider>
@@ -73,7 +73,7 @@ export default class Footer extends Component {
                 <li>
                   <a href="https://github.com/cynthiainga" target="blank">
                     <IconContext.Provider
-                      value={{ className: "contact-link-icon" }}
+                      value={{ className: 'contact-link-icon' }}
                     >
                       <FiGithub />
                     </IconContext.Provider>
@@ -82,7 +82,7 @@ export default class Footer extends Component {
                 <li>
                   <a href="https://twitter.com/CynthiaInga_C" target="blank">
                     <IconContext.Provider
-                      value={{ className: "contact-link-icon" }}
+                      value={{ className: 'contact-link-icon' }}
                     >
                       <FiTwitter />
                     </IconContext.Provider>
@@ -94,7 +94,7 @@ export default class Footer extends Component {
                     target="blank"
                   >
                     <IconContext.Provider
-                      value={{ className: "contact-link-icon" }}
+                      value={{ className: 'contact-link-icon' }}
                     >
                       <FiLinkedin />
                     </IconContext.Provider>
@@ -105,7 +105,10 @@ export default class Footer extends Component {
           </div>
           <div className="footer-down">
             <p>
-              &copy; {new Date().getFullYear()}{" "}
+              &copy;
+              {' '}
+              {new Date().getFullYear()}
+              {' '}
               <a
                 href="https://www.linkedin.com/in/cynthia-inga/"
                 className="name"

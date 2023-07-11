@@ -78,7 +78,7 @@ export default class Home extends Component {
         <div className="home-content">
           <div className="text-content">
             <div className="title-container" data-aos="fade-up-right">
-              <div className="before-line"></div>
+              <div className="before-line" />
               <h3 className="titles">Hi there,</h3>
             </div>
             <div className="intro" data-aos="fade-up-right">
@@ -92,15 +92,16 @@ export default class Home extends Component {
             <div className="button" data-aos="fade-up">
               <Link
                 to="contact"
-                spy={true}
-                smooth={true}
+                spy
+                smooth
                 duration={500}
                 className="hire-me-btn"
               >
                 Hire Me
               </Link>
               <a href={resume} download className="download-cv-btn">
-                Download CV{' '}
+                Download CV
+                {' '}
                 <IconContext.Provider value={{ className: 'download-icon' }}>
                   <BiDownload />
                 </IconContext.Provider>
@@ -117,7 +118,7 @@ export default class Home extends Component {
                 viewBox="0 0 1280.000000 1280.000000"
                 preserveAspectRatio="xMidYMid meet"
               >
-                <metadata></metadata>
+                <metadata />
                 <g
                   transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
                   fill="#000000"
@@ -567,7 +568,7 @@ export default class Home extends Component {
                 </div>
               </div>
               <div className="years-of-experiance">
-                <div className="blur-area"></div>
+                <div className="blur-area" />
                 <div className="icon-wrapper">
                   <IconContext.Provider value={{ className: 'computer-icon' }}>
                     <FaLaptopCode />
@@ -580,7 +581,8 @@ export default class Home extends Component {
                       <IconContext.Provider value={{ className: 'check-icon' }}>
                         <AiOutlineCheck />
                       </IconContext.Provider>
-                    </h2>{' '}
+                    </h2>
+                    {' '}
                     <span>2+ Year</span>
                   </div>
                 </div>

@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { IconContext } from "react-icons";
-import { FiExternalLink } from "react-icons/fi";
-import { AiFillGithub } from "react-icons/ai";
-import truncateStr from "../utils/truncateStr";
+import React, { Component } from 'react';
+import { IconContext } from 'react-icons';
+import { FiExternalLink } from 'react-icons/fi';
+import { AiFillGithub } from 'react-icons/ai';
+import truncateStr from '../utils/truncateStr';
 
 export default class ProjectCard extends Component {
   render() {
@@ -20,14 +20,15 @@ export default class ProjectCard extends Component {
           </p>
           <div className="project-links">
             <a href={project.demoLink} target="blank">
-              Live Demo{" "}
-              <IconContext.Provider value={{ className: "project-link" }}>
+              Live Demo
+              {' '}
+              <IconContext.Provider value={{ className: 'project-link' }}>
                 <FiExternalLink />
               </IconContext.Provider>
             </a>
             <a href={project.sourceCodeLink} target="blank">
               Source code
-              <IconContext.Provider value={{ className: "project-link" }}>
+              <IconContext.Provider value={{ className: 'project-link' }}>
                 <AiFillGithub />
               </IconContext.Provider>
             </a>

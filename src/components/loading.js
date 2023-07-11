@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Loading extends Component {
   state = {};
+
   render() {
     return (
       <div className="loading-screen-main-container">
@@ -17,20 +18,20 @@ class Loading extends Component {
             fill="white"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M188.313 177.324C188.313 189.673 178.643 198.87 167.706 198.87C156.982 198.87 147.476 190.028 147.109 178.042H146.278V155.779H166.652V155.807C167.002 155.788 167.353 155.779 167.706 155.779C178.643 155.779 188.313 164.976 188.313 177.324ZM209.859 177.324C209.859 201.123 190.986 220.415 167.706 220.415C144.425 220.415 125.553 201.123 125.553 177.324C125.553 153.526 144.425 134.233 167.706 134.233C190.986 134.233 209.859 153.526 209.859 177.324Z"
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M188.313 177.324C188.313 189.673 178.643 198.87 167.706 198.87C156.982 198.87 147.476 190.028 147.109 178.042H146.278V155.779H166.652V155.807C167.002 155.788 167.353 155.779 167.706 155.779C178.643 155.779 188.313 164.976 188.313 177.324ZM209.859 177.324C209.859 201.123 190.986 220.415 167.706 220.415C144.425 220.415 125.553 201.123 125.553 177.324C125.553 153.526 144.425 134.233 167.706 134.233C190.986 134.233 209.859 153.526 209.859 177.324Z"
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M136.091 134.233H172.481C182.018 135.588 195.885 141.08 203.982 155.779H146.863V214.793C131.977 205.54 126.408 187.829 125.552 177.683L125.318 177.768V145.006V134.233H136.091Z"
             fill="black"
           />
@@ -39,28 +40,28 @@ class Loading extends Component {
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M110.599 172.801L110.097 173.015V160.088L110.155 160.123V120.955C97.0625 134.948 89.0198 153.919 89.0198 174.811C89.0198 217.846 123.148 252.733 165.247 252.733C207.346 252.733 241.474 217.846 241.474 174.811C241.474 131.775 207.346 96.8879 165.247 96.8879C150.791 96.8879 137.276 101.001 125.759 108.145V135.812C131.541 129.606 138.675 124.777 146.629 121.802V118.433H165.232L165.247 118.433L165.261 118.433H167.705V118.49C196.362 119.811 219.928 144.099 219.928 174.811C219.928 206.396 195.002 231.188 165.247 231.188C135.491 231.188 110.565 206.396 110.565 174.811C110.565 174.138 110.577 173.468 110.599 172.801Z"
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M89.058 27.0949V162.285V172.785H99.558H110.097V151.785H110.058V22.4832C100.895 22.686 94.796 24.1693 89.058 27.0949ZM125.591 22.5V151.785H125.553V172.785H136.091H146.591V162.285V22.5H125.591Z"
             fill="black"
           />
         </svg>
         <div className="animation-squares-container">
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
-          <div className="animation-square"></div>
+          <div className="animation-square" />
+          <div className="animation-square" />
+          <div className="animation-square" />
+          <div className="animation-square" />
+          <div className="animation-square" />
+          <div className="animation-square" />
+          <div className="animation-square" />
+          <div className="animation-square" />
+          <div className="animation-square" />
         </div>
       </div>
     );

@@ -24,10 +24,10 @@ export default function Contact() {
       <div className="contact-page">
         <div className="contact-details">
           <div className="title-container">
-            <div className="before-line"></div>
+            <div className="before-line" />
             <h3 className="titles">Contact me</h3>
           </div>
-          <h2 className="slogan">Let's do it together</h2>
+          <h2 className="slogan">Let&#39;s do it together</h2>
 
           <p className="about-work">
             Question, comment or concern? this contact form is the best way to
@@ -161,7 +161,7 @@ export default function Contact() {
       <div className="contact-page">
         <div className="contact-details">
           <div className="title-container" data-aos="fade-down">
-            <div className="before-line"></div>
+            <div className="before-line" />
             <h3 className="titles">Contact me</h3>
           </div>
           <h2 className="slogan" data-aos="fade-down">

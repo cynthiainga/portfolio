@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import web from "../assets/images/web.jpeg";
+import React, { Component } from 'react';
+import web from '../assets/images/web.jpeg';
 
 export default class Work extends Component {
   render() {
@@ -89,12 +89,14 @@ export default class Work extends Component {
         </div>
         <div className="right-area-container">
           <div className="title-container" data-aos="fade-up">
-            <div className="before-line"></div>
+            <div className="before-line" />
             <h3 className="titles">What I do</h3>
           </div>
           <h2 className="slogan" data-aos="fade-up">
             Better Design,
-            <br /> Better experiences
+            <br />
+            {' '}
+            Better experiences
           </h2>
 
           <p className="about-work" data-aos="fade-up">

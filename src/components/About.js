@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { IconContext } from 'react-icons';
 import { BiDownload } from 'react-icons/bi';
 import { BsCheckCircle } from 'react-icons/bs';
+import { Link } from 'react-scroll';
 import project from '../assets/images/Capstone1.png';
 import resume from '../assets/My resume.pdf';
-import { Link } from 'react-scroll';
 
 export default class About extends Component {
   render() {
@@ -12,12 +12,14 @@ export default class About extends Component {
       <div className="about-main-container" id="about" name="about">
         <div className="right-container">
           <div className="title-container" data-aos="fade-up">
-            <div className="before-line"></div>
+            <div className="before-line" />
             <h3 className="titles">About me</h3>
           </div>
           <h2 className="slogan" data-aos="fade-up">
             Hi, Here I am
-            <br /> To help your next project
+            <br />
+            {' '}
+            To help your next project
           </h2>
 
           <p className="about-work" data-aos="fade-up">
@@ -27,7 +29,9 @@ export default class About extends Component {
             frameworks, and technologies, and capable of ramping up quickly.
           </p>
           <h3 className="languages-title" data-aos="fade-up">
-            Languages and <span>Frameworks</span>
+            Languages and
+            {' '}
+            <span>Frameworks</span>
           </h3>
           <div className="about-work-details">
             <div className="about-work-item" data-aos="fade-up-right">
@@ -82,15 +86,16 @@ export default class About extends Component {
           <div className="button about" data-aos="fade-up">
             <Link
               to="portfolio"
-              spy={true}
-              smooth={true}
+              spy
+              smooth
               duration={500}
               className="hire-me-btn"
             >
               My portfolio
             </Link>
             <a href={resume} download className="download-cv-btn">
-              Download CV{' '}
+              Download CV
+              {' '}
               <IconContext.Provider value={{ className: 'download-icon' }}>
                 <BiDownload />
               </IconContext.Provider>
@@ -111,7 +116,7 @@ export default class About extends Component {
               viewBox="0 0 1280.000000 1280.000000"
               preserveAspectRatio="xMidYMid meet"
             >
-              <metadata></metadata>
+              <metadata />
               <g
                 transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
                 fill="#000000"
