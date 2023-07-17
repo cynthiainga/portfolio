@@ -42,28 +42,30 @@
   margin-right: 1rem;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li div {
+.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button {
   color: #808dad;
   font-size: 1rem;
   font-weight: bold;
+  background: none;
+  border: none;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li div:hover {
+.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button:hover {
   color: #dba858;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li div.active {
+.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button.active {
   color: #dba858;
   position: relative;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li div.active::after {
+.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button.active::after {
   content: "";
   position: absolute;
   width: 30%;
   height: 2px;
   background-color: #dba858;
-  left: 0;
+  left: 6px;
   bottom: 0;
 }
 
@@ -109,7 +111,7 @@
     margin-right: 1rem;
   }
 
-  .portfolio-main-container .portfolio .portfolio-works .projects-links ul li div {
+  .portfolio-main-container .portfolio .portfolio-works .projects-links ul li button {
     color: #808dad;
     font-size: 1.5rem;
     font-weight: bold;

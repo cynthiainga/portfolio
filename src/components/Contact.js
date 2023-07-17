@@ -11,7 +11,6 @@ import {
   FiGithub,
   FiLinkedin,
 } from 'react-icons/fi';
-
 import Input from './common/Input';
 import SubmitBtn from './common/SubmitBtn';
 import Texterea from './common/Texterea';
@@ -79,7 +78,8 @@ export default function Contact() {
               <li>
                 <a
                   href="https://www.facebook.com/cynthia.inga.77/"
-                  target="blank"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
@@ -90,8 +90,9 @@ export default function Contact() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/candyinga67/"
-                  target="blank"
+                  href="https://www.instagram.com/candy_i99/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
@@ -101,7 +102,7 @@ export default function Contact() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/cynthiainga" target="blank">
+                <a href="https://github.com/cynthiainga" target="_blank" rel="noreferrer">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
@@ -110,7 +111,7 @@ export default function Contact() {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/CynthiaInga_C" target="blank">
+                <a href="https://twitter.com/CynthiaInga_C" target="_blank" rel="noreferrer">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
@@ -121,7 +122,8 @@ export default function Contact() {
               <li>
                 <a
                   href="https://www.linkedin.com/in/cynthia-inga/"
-                  target="blank"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
@@ -140,12 +142,13 @@ export default function Contact() {
           </div>
           <div className="show-form-btn">
             Click
-            <div
+            <button
+              type="button"
               onClick={() => window.location.reload()}
               className="show-contact-form"
             >
               here
-            </div>
+            </button>
             to show the contact form again.
           </div>
         </div>
@@ -218,7 +221,8 @@ export default function Contact() {
               <li data-aos="fade-right">
                 <a
                   href="https://www.facebook.com/cynthia.inga.77/"
-                  target="blank"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
@@ -229,8 +233,9 @@ export default function Contact() {
               </li>
               <li data-aos="fade-right">
                 <a
-                  href="https://www.instagram.com/candyinga67/"
-                  target="blank"
+                  href="https://www.instagram.com/candy_i99/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
@@ -240,7 +245,7 @@ export default function Contact() {
                 </a>
               </li>
               <li data-aos="fade-right">
-                <a href="https://github.com/cynthiainga" target="blank">
+                <a href="https://github.com/cynthiainga" target="_blank" rel="noreferrer">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
@@ -249,7 +254,7 @@ export default function Contact() {
                 </a>
               </li>
               <li data-aos="fade-right">
-                <a href="https://twitter.com/CynthiaInga_C" target="blank">
+                <a href="https://twitter.com/CynthiaInga_C" target="_blank" rel="noreferrer">
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
@@ -260,7 +265,8 @@ export default function Contact() {
               <li data-aos="fade-right">
                 <a
                   href="https://www.linkedin.com/in/cynthia-inga/"
-                  target="blank"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}

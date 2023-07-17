@@ -6,9 +6,12 @@ import covidtrack from '../assets/images/covidtrack.png';
 import leaderboard from '../assets/images/leaderboard.png';
 
 export default class Portfolio extends Component {
-  state = {
-    shownTab: 'all',
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      shownTab: 'all',
+    };
+  }
 
   handleHowTab = (tab) => {
     this.setState({ shownTab: tab });
@@ -116,28 +119,26 @@ export default class Portfolio extends Component {
                 <h3 data-aos="fade-up">Some of my best works</h3>
                 <ul>
                   <li>
-                    <div
-                      onClick={() => this.handleHowTab('all')}
-                      className={shownTab === 'all' ? 'active' : ''}
-                    >
+                    <button onClick={() => this.handleHowTab('all')} type="button" className={shownTab === 'all' ? 'active' : ''}>
                       All
-                    </div>
+                    </button>
+
                   </li>
-                  <li onClick={() => this.handleHowTab('web')}>
-                    <div className={shownTab === 'web' ? 'active' : ''}>
+                  <li>
+                    <button onClick={() => this.handleHowTab('web')} type="button" className={shownTab === 'web' ? 'active' : ''}>
                       Web
-                    </div>
+                    </button>
                   </li>
-                  <li onClick={() => this.handleHowTab('mobile')}>
-                    <div className={shownTab === 'mobile' ? 'active' : ''}>
+                  <li>
+                    <button onClick={() => this.handleHowTab('mobile')} type="button" className={shownTab === 'mobile' ? 'active' : ''}>
                       Mobile
                       {' '}
-                    </div>
+                    </button>
                   </li>
-                  <li onClick={() => this.handleHowTab('backend')}>
-                    <div className={shownTab === 'backend' ? 'active' : ''}>
+                  <li>
+                    <button onClick={() => this.handleHowTab('backend')} type="button" className={shownTab === 'backend' ? 'active' : ''}>
                       Backend
-                    </div>
+                    </button>
                   </li>
                 </ul>
               </div>
