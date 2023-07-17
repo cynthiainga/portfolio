@@ -23,7 +23,7 @@ export default class About extends Component {
           </h2>
 
           <p className="about-work" data-aos="fade-up">
-            I'm Kandilero Inga Cynthia  a software developer and open-source
+            I&#39;m Kandilero Inga Cynthia  a software developer and open-source
             enthusiast with love for clean code and accessible design.
             Pair-programming and remote work. Fluent in multiple languages,
             frameworks, and technologies, and capable of ramping up quickly.

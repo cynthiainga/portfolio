@@ -165,7 +165,7 @@ export default function Contact() {
             <h3 className="titles">Contact me</h3>
           </div>
           <h2 className="slogan" data-aos="fade-down">
-            Let's do it together
+            Let&#39;s do it together
           </h2>
 
           <p className="about-work" data-aos="fade-down">

@@ -100,7 +100,7 @@ export default class Work extends Component {
           </h2>
 
           <p className="about-work" data-aos="fade-up">
-            I'm Building scalable web applications, Mobile apps and beautiful
+            I&#39;m Building scalable web applications, Mobile apps and beautiful
             websites for companies.
           </p>
         </div>
