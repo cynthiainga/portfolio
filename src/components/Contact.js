@@ -15,7 +15,7 @@ import Input from './common/Input';
 import SubmitBtn from './common/SubmitBtn';
 import Texterea from './common/Texterea';
 
-export default function Contact() {
+const Contact = () => {
   const [state, handleSubmit] = useForm('mnqwneyz');
 
   const Message = () => (
@@ -293,10 +293,12 @@ export default function Contact() {
               name="message"
               errors={state.errors}
             />
-            <SubmitBtn message="Send" />
+            <SubmitBtn message="Send" className="submit-bnt" />
           </form>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Contact;
