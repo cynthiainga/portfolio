@@ -3,7 +3,8 @@ import { IconContext } from 'react-icons';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { Link } from 'react-scroll';
-import logo from '../assets/images/logo1.png';
+import logo1 from '../assets/images/logo1.png';
+import logo2 from '../assets/images/logo2.png';
 
 class Header extends Component {
   constructor(props) {
@@ -28,12 +29,16 @@ class Header extends Component {
           id: 5, name: 'Contact', to: 'contact', class: '',
         },
       ],
+      isMenuOpen: false,
     };
   }
 
   handleShowLinks = () => {
     this.navbar.current.classList.toggle('open');
     this.menu.current.classList.toggle('open');
+    this.setState((prevState) => ({
+      isMenuOpen: !prevState.isMenuOpen,
+    }));
   };
 
   handleHover = (link) => {
@@ -67,10 +72,13 @@ class Header extends Component {
   closeMenu = () => {
     this.navbar.current.classList.remove('open');
     this.menu.current.classList.remove('open');
+    this.setState({
+      isMenuOpen: false,
+    });
   };
 
   render() {
-    const { links } = this.state;
+    const { links, isMenuOpen } = this.state;
 
     return (
       <header>
@@ -85,7 +93,7 @@ class Header extends Component {
               className="logo-area"
               onClick={this.closeMenu}
             >
-              <img src={logo} alt="homeImage" className="logo" />
+              <img src={isMenuOpen ? logo2 : logo1} alt="homeImage" className="logo" />
             </Link>
           </div>
           <div className="hamburger-container">
