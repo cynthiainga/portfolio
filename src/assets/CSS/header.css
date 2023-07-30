@@ -71,10 +71,6 @@
   width: 50px;
 }
 
-svg path {
-  transition: all 0.7s ease;
-}
-
 .header-main-container.open .logo-wrapper path {
   fill: #f5f3f3;
   transition-delay: 0.7s;
@@ -86,6 +82,8 @@ svg path {
 
 .logo {
   width: 65px;
+  border-radius: 30px;
+  transition: all 0.7s ease;
 }
 
 .header-links-main-container {
