@@ -88,12 +88,12 @@ class Header extends Component {
               to="home"
               spy
               smooth
-              duration={500}
-              delay={800}
+              duration={300}
+              delay={90}
               className="logo-area"
               onClick={this.closeMenu}
             >
-              <img src={isMenuOpen ? logo2 : logo1} alt="homeImage" className="logo" />
+              <img src={isMenuOpen ? logo2 : logo1} alt="homeImage" className="logo-wrapper" />
             </Link>
           </div>
           <div className="hamburger-container">
