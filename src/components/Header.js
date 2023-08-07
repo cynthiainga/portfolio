@@ -1,6 +1,6 @@
 import React, { Component, createRef } from 'react';
 import { IconContext } from 'react-icons';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaEnvelope, FaTwitter } from 'react-icons/fa';
 import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 import logo1 from '../assets/images/logo1.png';
@@ -151,14 +151,14 @@ class Header extends Component {
             <div className="contact-details-icon-wrapper">
               <div className="contact-icon-item">
                 <a
-                  href="https://www.facebook.com/cynthia.inga.77/"
+                  href="mailto:candyinga67@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'header-links-icon' }}
                   >
-                    <FaFacebookF />
+                    <FaEnvelope />
                   </IconContext.Provider>
                 </a>
                 <a
@@ -170,17 +170,6 @@ class Header extends Component {
                     value={{ className: 'header-links-icon' }}
                   >
                     <FaTwitter />
-                  </IconContext.Provider>
-                </a>
-                <a
-                  href="https://www.instagram.com/candy_i99/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <IconContext.Provider
-                    value={{ className: 'header-links-icon' }}
-                  >
-                    <FaInstagram />
                   </IconContext.Provider>
                 </a>
                 <a

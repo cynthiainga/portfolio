@@ -4,8 +4,7 @@ import { BiDownload } from 'react-icons/bi';
 import { FaLaptopCode, FaPlay } from 'react-icons/fa';
 import { AiOutlineCheck } from 'react-icons/ai';
 import {
-  FiFacebook,
-  FiInstagram,
+  FiMail,
   FiTwitter,
   FiGithub,
   FiLinkedin,
@@ -19,23 +18,11 @@ const Home = () => (
     <div className="media-links" data-aos="fade-up-left">
       <ul>
         <li>
-          <a href="https://www.facebook.com/cynthia.inga.77/" target="blank">
+          <a href="mailto:candyinga67@gmail.com" target="blank">
             <IconContext.Provider
               value={{ className: 'sidebar-link-icon' }}
             >
-              <FiFacebook />
-            </IconContext.Provider>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/candy_i99/"
-            target="blank"
-          >
-            <IconContext.Provider
-              value={{ className: 'sidebar-link-icon' }}
-            >
-              <FiInstagram />
+              <FiMail />
             </IconContext.Provider>
           </a>
         </li>

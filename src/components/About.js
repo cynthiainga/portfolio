@@ -21,10 +21,16 @@ const About = () => (
       </h2>
 
       <p className="about-work" data-aos="fade-up">
-        I&#39;m Kandilero Inga Cynthia  a software developer and open-source
-        enthusiast with love for clean code and accessible design.
-        Pair-programming and remote work. Fluent in multiple languages,
-        frameworks, and technologies, and capable of ramping up quickly.
+        Hey there, I&#39;m Kandilero Inga Cynthia, a software developer and open-source enthusiast.
+        Clean code and creating designs that are accessible to everyone are my objective.
+        <br />
+        I&#39;m all about pair-programming and remote work,
+        finding that they really bring out my best.
+        <br />
+        Fluent in various languages, frameworks, and technologies, and
+        I can easily pick up new stuff.
+        <br />
+        Let&#39;s make our coding journey personal and awesome together!
       </p>
       <h3 className="languages-title" data-aos="fade-up">
         Languages and
@@ -38,7 +44,7 @@ const About = () => (
               <BsCheckCircle />
             </IconContext.Provider>
           </div>
-          <h3>Ruby</h3>
+          <h3>Javascript</h3>
         </div>
         <div className="about-work-item" data-aos="fade-up-left">
           <div className="check-icon">
@@ -46,15 +52,7 @@ const About = () => (
               <BsCheckCircle />
             </IconContext.Provider>
           </div>
-          <h3>Javascript</h3>
-        </div>
-        <div className="about-work-item" data-aos="fade-up-right">
-          <div className="check-icon">
-            <IconContext.Provider value={{ className: 'check-list-icon' }}>
-              <BsCheckCircle />
-            </IconContext.Provider>
-          </div>
-          <h3>Ruby on Rails</h3>
+          <h3>CSS3</h3>
         </div>
         <div className="about-work-item" data-aos="fade-up-right">
           <div className="check-icon">
@@ -70,7 +68,7 @@ const About = () => (
               <BsCheckCircle />
             </IconContext.Provider>
           </div>
-          <h3>HTML</h3>
+          <h3>Ruby</h3>
         </div>
         <div className="about-work-item" data-aos="fade-up-right">
           <div className="check-icon">
@@ -78,7 +76,15 @@ const About = () => (
               <BsCheckCircle />
             </IconContext.Provider>
           </div>
-          <h3>CSS</h3>
+          <h3>HTML5</h3>
+        </div>
+        <div className="about-work-item" data-aos="fade-up-right">
+          <div className="check-icon">
+            <IconContext.Provider value={{ className: 'check-list-icon' }}>
+              <BsCheckCircle />
+            </IconContext.Provider>
+          </div>
+          <h3>Ruby on Rails</h3>
         </div>
       </div>
       <div className="button about" data-aos="fade-up">

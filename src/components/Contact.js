@@ -4,9 +4,8 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import { useForm } from '@formspree/react';
 import { BsEnvelope } from 'react-icons/bs';
 import {
-  FiFacebook,
+  FiMail,
   FiPhone,
-  FiInstagram,
   FiTwitter,
   FiGithub,
   FiLinkedin,
@@ -77,27 +76,14 @@ const Contact = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.facebook.com/cynthia.inga.77/"
+                  href="mailto:candyinga67@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
-                    <FiFacebook />
-                  </IconContext.Provider>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/candy_i99/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <IconContext.Provider
-                    value={{ className: 'contact-link-icon' }}
-                  >
-                    <FiInstagram />
+                    <FiMail />
                   </IconContext.Provider>
                 </a>
               </li>
@@ -220,27 +206,14 @@ const Contact = () => {
             <ul>
               <li data-aos="fade-right">
                 <a
-                  href="https://www.facebook.com/cynthia.inga.77/"
+                  href="mailto:candyinga67@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <IconContext.Provider
                     value={{ className: 'contact-link-icon' }}
                   >
-                    <FiFacebook />
-                  </IconContext.Provider>
-                </a>
-              </li>
-              <li data-aos="fade-right">
-                <a
-                  href="https://www.instagram.com/candy_i99/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <IconContext.Provider
-                    value={{ className: 'contact-link-icon' }}
-                  >
-                    <FiInstagram />
+                    <FiMail />
                   </IconContext.Provider>
                 </a>
               </li>
@@ -293,7 +266,7 @@ const Contact = () => {
               name="message"
               errors={state.errors}
             />
-            <SubmitBtn message="Send" className="submit-bnt" />
+            <SubmitBtn message="Send" className="submit-btn" />
           </form>
         </div>
       </div>

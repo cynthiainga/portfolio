@@ -1,8 +1,7 @@
 import React from 'react';
 import { IconContext } from 'react-icons/lib';
 import {
-  FiFacebook,
-  FiInstagram,
+  FiMail,
   FiTwitter,
   FiGithub,
   FiLinkedin,
@@ -45,25 +44,13 @@ const Footer = () => (
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/cynthia.inga.77/"
+                href="mailto:candyinga67@gmail.com"
                 target="blank"
               >
                 <IconContext.Provider
                   value={{ className: 'contact-link-icon' }}
                 >
-                  <FiFacebook />
-                </IconContext.Provider>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/candy_i99/"
-                target="blank"
-              >
-                <IconContext.Provider
-                  value={{ className: 'contact-link-icon' }}
-                >
-                  <FiInstagram />
+                  <FiMail />
                 </IconContext.Provider>
               </a>
             </li>

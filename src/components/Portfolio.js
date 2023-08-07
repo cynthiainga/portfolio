@@ -129,12 +129,13 @@ export default class Portfolio extends Component {
                       Web
                     </button>
                   </li>
-                  <li>
-                    <button onClick={() => this.handleHowTab('mobile')} type="button" className={shownTab === 'mobile' ? 'active' : ''}>
+                  {/* <li>
+                    <button onClick={() => this.handleHowTab('mobile')}
+                    type="button" className={shownTab === 'mobile' ? 'active' : ''}>
                       Mobile
                       {' '}
                     </button>
-                  </li>
+                  </li> */}
                   <li>
                     <button onClick={() => this.handleHowTab('backend')} type="button" className={shownTab === 'backend' ? 'active' : ''}>
                       Backend
