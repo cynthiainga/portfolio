@@ -2,14 +2,14 @@
   border-top: 1px solid rgba(128, 141, 173, 0.2);
 }
 
-.footer-main-container .footer-content {
+.footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.footer-main-container .footer-content .footer-up {
+.footer-up {
   width: 80%;
   border-bottom: 1px solid rgba(128, 141, 173, 0.2);
   padding: 1rem 0;
@@ -19,52 +19,52 @@
   align-items: flex-end;
 }
 
-.footer-main-container .footer-content .footer-up ul {
+.footer-up ul {
   padding: 0;
 }
 
-.footer-main-container .footer-content .footer-up .links-pages li {
+.links-pages li {
   margin: 0.8rem 0;
 }
 
-.footer-main-container .footer-content .footer-up .contact-links ul li .contact-link-icon {
+.contact-link-icon {
   width: auto;
   color: #808dad;
   font-size: 1.2rem;
 }
 
-.footer-main-container .footer-content .footer-up .contact-links ul li {
+.contact-links ul li {
   margin-right: 0.6rem;
 }
 
-.footer-main-container .footer-content .footer-up .links-pages li:last-child {
+.links-pages li:last-child {
   margin-bottom: 0;
 }
 
-.footer-main-container .footer-content .footer-up .links-pages li a {
+.links-pages li a {
   color: #808dad;
   font-weight: bold;
 }
 
-.footer-main-container .footer-content .footer-up .links-pages li a.active {
+.links-pages li a.active {
   color: #dba858;
 }
 
-.footer-main-container .footer-content .footer-up .links-pages li a:hover {
+.links-pages li a:hover {
   color: #dba858;
 }
 
-.footer-main-container .footer-content .footer-up .contact-links ul {
+.contact-links ul {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
 
-.footer-main-container .footer-content .footer-up .contact-links ul li .contact-link-icon:hover {
+.contact-link-icon:hover {
   color: #dba858;
 }
 
-.footer-main-container .footer-content .footer-down {
+.footer-down {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,17 +74,17 @@
   padding: 0.3rem 0;
 }
 
-.footer-main-container .footer-content .footer-down p {
+.footer-down p {
   color: #808dad;
   margin: 0;
   font-size: 1.1rem;
 }
 
-.footer-main-container .footer-content .footer-down p .name {
+.name {
   color: #808dad;
 }
 
-.footer-main-container .footer-content .footer-down p .name:hover {
+.name:hover {
   color: #dba858;
 }
 
@@ -93,7 +93,7 @@
     font-size: 1.5rem;
   }
 
-  .footer-main-container .contact-links li {
+  .contact-links li {
     margin-right: 1.5rem !important;
   }
 
@@ -101,7 +101,7 @@
     font-size: 1.9rem !important;
   }
 
-  .footer-main-container .footer-down {
+  .footer-down {
     padding: 1rem 0 !important;
   }
 }

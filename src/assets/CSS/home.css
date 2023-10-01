@@ -4,32 +4,32 @@
   align-items: center;
   flex-direction: row;
   position: relative;
-  min-height: 700px;
+  min-height: 750px;
 }
 
-.home-page-container .media-links {
+.media-links {
   position: absolute;
   right: 0.5rem;
   top: 10rem;
 }
 
-.home-page-container .media-links ul li {
+.media-links ul li {
   margin: 0.5rem 0;
 }
 
-.home-page-container .media-links ul li a {
+.media-links ul li a {
   color: #808dad;
 }
 
-.home-page-container .media-links ul li a .sidebar-link-icon {
+.sidebar-link-icon {
   font-size: 1.4rem;
 }
 
-.home-page-container .media-links ul li a:hover {
+.media-links ul li a:hover {
   color: #dba858;
 }
 
-.home-page-container .home-content {
+.home-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,13 +37,13 @@
   width: 100%;
 }
 
-.home-page-container .home-content .text-content {
+.text-content {
   margin-bottom: 3rem;
   width: 100%;
   margin-left: 3rem;
 }
 
-.home-page-container .home-content .text-content .intro {
+.intro {
   font-size: 2.2rem;
   color: #f5f3f3;
   font-weight: bold;
@@ -54,11 +54,11 @@
   text-transform: uppercase;
 }
 
-.home-page-container .home-content .text-content .profession-area .profession {
+.profession-area .profession {
   color: #808dad;
 }
 
-.home-page-container .home-content .image-container {
+.home-content .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +66,7 @@
   width: 100%;
 }
 
-.home-page-container .home-content .image-container .image {
+.image {
   background-color: rgba(131, 144, 175, 0.2);
   border-radius: 0.6rem;
   height: 14rem;
@@ -79,13 +79,13 @@
   flex-direction: row;
 }
 
-.home-page-container .home-content .image-container .image .home-image {
+.home-image {
   max-width: 93%;
   height: 93%;
   border-radius: 0.5rem;
 }
 
-.home-page-container .home-content .image-container .image .dots-svg {
+.image .dots-svg {
   position: absolute;
   top: -1rem;
   right: -1rem;
@@ -96,12 +96,12 @@
   stroke: rgba(237, 161, 65, 0.348);
 }
 
-.home-page-container .home-content .image-container .image .dots-svg path {
+.dots-svg path {
   fill: rgba(237, 161, 65, 0.348);
   stroke: rgba(237, 161, 65, 0.348);
 }
 
-.home-page-container .home-content .image-container .image .play-icon-wrapper {
+.play-icon-wrapper {
   position: absolute;
   bottom: -1rem;
   left: -1.5rem;
@@ -115,7 +115,7 @@
   flex-direction: row;
 }
 
-.home-page-container .home-content .image-container .image .play-icon-wrapper .play-container {
+.play-container {
   width: 70%;
   height: 70%;
   background-color: rgba(237, 161, 88, 0.4);
@@ -126,12 +126,12 @@
   flex-direction: row;
 }
 
-.home-page-container .home-content .image-container .image .play-icon-wrapper .play-container .icon-play {
+.icon-play {
   color: #dba858;
   font-size: 1.4rem;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance {
+.years-of-experiance {
   position: absolute;
   bottom: -2.3rem;
   right: 0;
@@ -143,7 +143,7 @@
   flex-direction: row;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .blur-area {
+.blur-area {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -153,7 +153,7 @@
   z-index: -1;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .icon-wrapper {
+.years-of-experiance .icon-wrapper {
   width: 2rem;
   height: 1.7rem;
   margin-right: 0.4rem;
@@ -165,38 +165,38 @@
   flex-direction: row;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .icon-wrapper .computer-icon {
+.computer-icon {
   font-size: 1rem;
   color: #dba858;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .experiance-text {
+.experiance-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .experiance-text h5 {
+.experiance-text h5 {
   margin: 0;
   color: #c7bbbb;
   font-size: 0.7rem;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .experiance-text .years-wrapper {
+.years-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .experiance-text .years-wrapper h2 {
+.years-wrapper h2 {
   color: #f5f3f3;
   margin: 0;
   margin-right: 0.2rem;
 }
 
-.home-page-container .home-content .image-container .image .years-of-experiance .experiance-text .years-wrapper span {
+.years-wrapper span {
   color: #f5f3f3;
   font-weight: bold;
 }
@@ -210,7 +210,7 @@
     width: 100%;
   }
 
-  .home-page-container .home-content .text-content .intro {
+  .text-content .intro {
     font-size: 2.8rem;
   }
 }
@@ -224,27 +224,27 @@
     width: 100%;
   }
 
-  .home-page-container .home-content .text-content {
+  .text-content {
     margin-left: 4rem;
   }
 
-  .home-page-container .home-content .text-content .intro {
+  .intro {
     font-size: 2.8rem;
   }
 
-  .home-page-container .home-content .image-container {
+  .home-content .image-container {
     margin-right: 4rem;
   }
 
-  .home-page-container .home-content .image-container .image {
+  .image {
     margin: 0;
   }
 
-  .home-page-container .home-content .image-container .image .years-of-experiance {
+  .years-of-experiance {
     right: -1rem;
   }
 
-  .home-page-container .home-content .image-container .image .dots-svg {
+  .image .dots-svg {
     position: absolute;
     top: -1.5rem;
     right: -1.5rem;
@@ -252,7 +252,7 @@
     height: 6rem;
   }
 
-  .home-page-container .media-links {
+  .media-links {
     top: 20rem;
     right: 0.5rem;
   }
@@ -267,38 +267,38 @@
     width: 100%;
   }
 
-  .home-page-container .home-content .text-content {
+  .text-content {
     margin-left: 8rem;
     padding-top: 7rem;
   }
 
-  .home-page-container .home-content .text-content .intro {
+  .intro {
     font-size: 4.5rem;
     width: 100%;
     margin-bottom: 2rem;
   }
 
-  .home-page-container .home-content .image-container {
+  .home-content .image-container {
     margin-right: 8rem;
     padding-top: 3rem;
   }
 
-  .home-page-container .home-content .image-container .image {
+  .image {
     margin: 0;
     margin-left: 1rem;
     height: 23rem;
     width: 29rem;
   }
 
-  .home-page-container .home-content .image-container .image .years-of-experiance {
+  .years-of-experiance {
     right: -1rem;
   }
 
-  .home-page-container .home-content .image-container .image .years-of-experiance .experiance-text h5 {
+  .experiance-text h5 {
     font-size: 0.9rem;
   }
 
-  .home-page-container .home-content .image-container .image .dots-svg {
+  .image .dots-svg {
     position: absolute;
     top: -2.5rem;
     right: -2.5rem;
@@ -306,7 +306,7 @@
     height: 8rem;
   }
 
-  .home-page-container .home-content .image-container .image .play-icon-wrapper {
+  .play-icon-wrapper {
     width: 5rem;
     height: 5rem;
     left: -2rem;
@@ -318,11 +318,11 @@
     right: 1.5rem;
   }
 
-  .home-page-container .media-links ul li {
+  .media-links ul li {
     margin-bottom: 1.3rem;
   }
 
-  .home-page-container .media-links .sidebar-link-icon {
+  .sidebar-link-icon {
     width: auto;
     font-size: 1.4rem;
   }

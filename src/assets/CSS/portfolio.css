@@ -9,27 +9,27 @@
   width: 100%;
 }
 
-.portfolio-main-container .portfolio {
+.portfolio {
   margin-left: 2rem;
   margin-right: 2rem;
   width: 100%;
 }
 
-.portfolio-main-container .portfolio .portfolio-works {
+.portfolio-works {
   width: 100%;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links {
+.projects-links {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links h3 {
+.projects-links h3 {
   color: #f5f3f3;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul {
+.projects-links ul {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -38,11 +38,11 @@
   overflow-x: auto;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li {
+.projects-links ul li {
   margin-right: 1rem;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button {
+.projects-links ul li button {
   color: #808dad;
   font-size: 1rem;
   font-weight: bold;
@@ -50,16 +50,16 @@
   border: none;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button:hover {
+.projects-links ul li button:hover {
   color: #dba858;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button.active {
+.projects-links ul li button.active {
   color: #dba858;
   position: relative;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-links ul li button.active::after {
+.projects-links ul li button.active::after {
   content: "";
   position: absolute;
   width: 30%;
@@ -69,7 +69,7 @@
   bottom: 0;
 }
 
-.portfolio-main-container .portfolio .portfolio-works .projects-grid-wrapper {
+.projects-grid-wrapper {
   margin-top: 1rem;
   display: -ms-grid;
   display: grid;
@@ -83,7 +83,7 @@
     margin-right: 4rem;
   }
 
-  .portfolio-main-container .portfolio .portfolio-works .projects-grid-wrapper {
+  .portfolio-works .projects-grid-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
   }
@@ -95,7 +95,7 @@
     margin-right: 8rem;
   }
 
-  .portfolio-main-container .portfolio .portfolio-works .projects-links {
+  .portfolio-works .projects-links {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -103,21 +103,21 @@
     margin: 2rem 0;
   }
 
-  .portfolio-main-container .portfolio .portfolio-works .projects-links h3 {
+  .projects-links h3 {
     color: #f5f3f3;
   }
 
-  .portfolio-main-container .portfolio .portfolio-works .projects-links ul li {
+  .projects-links ul li {
     margin-right: 1rem;
   }
 
-  .portfolio-main-container .portfolio .portfolio-works .projects-links ul li button {
+  .projects-links ul li button {
     color: #808dad;
     font-size: 1.5rem;
     font-weight: bold;
   }
 
-  .portfolio-main-container .portfolio .portfolio-works .projects-grid-wrapper {
+  .portfolio-works .projects-grid-wrapper {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
   }
