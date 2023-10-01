@@ -132,7 +132,7 @@
     margin-right: 4rem;
   }
 
-  .image-container {
+  .right-about-page-area .image-container {
     height: 14rem;
   }
 
@@ -152,5 +152,9 @@
 
   .right-about-page-area {
     margin-right: 8rem;
+  }
+
+  .right-about-page-area .image-container {
+    height: 17rem;
   }
 }
