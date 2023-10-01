@@ -16,8 +16,8 @@
 }
 
 .hamburger-area {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #f5f3f3;
   cursor: pointer;
@@ -67,14 +67,14 @@
   margin-right: 13px;
 }
 
-.open .logo-wrapper {
-  fill: #f5f3f3;
-  transition-delay: 0.7s;
-}
-
 .logo-wrapper {
   width: 65px;
   border-radius: 30px;
+}
+
+.open .logo-wrapper {
+  fill: #f5f3f3;
+  transition-delay: 0.7s;
 }
 
 .header-links-main-container {
@@ -118,9 +118,11 @@
   font-size: 14px;
 }
 
-.links-wrapper ul {
-  margin-left: 200px;
-  pointer-events: none;
+.contact-icon-item a {
+  margin: 0;
+  color: #000;
+  transition: all 0.3s ease;
+  padding: 0;
 }
 
 .links-wrapper ul li a {
@@ -133,6 +135,15 @@
   z-index: 999;
   clip-path: inset(0 0 0 0);
   transition: all 0.75s cubic-bezier(0.63, 0.03, 0.21, 1);
+}
+
+.contact-icon-item a:hover {
+  color: #dba858;
+}
+
+.links-wrapper ul {
+  margin-left: 200px;
+  pointer-events: none;
 }
 
 .links-wrapper ul .focusOut a {
@@ -268,21 +279,10 @@
   margin-left: -10px;
 }
 
-.contact-icon-item a {
-  margin: 0;
-  color: #000;
-  transition: all 0.3s ease;
-  padding: 0;
-}
-
 .header-links-icon {
   padding: 0;
   font-size: 20px;
   margin: 0 7px;
-}
-
-.contact-icon-item a:hover {
-  color: #dba858;
 }
 
 .navbar-overlay-main-container {
@@ -382,11 +382,6 @@ li:hover ~ .cursor1 {
   transform: translate(-50%, -50%) scale(1.5);
   background-color: rgba(245, 243, 243, 0.2);
   opacity: 0.5;
-}
-
-.hamburger-area {
-  width: 50px;
-  height: 50px;
 }
 
 @media screen and (max-width: 1024px) {
